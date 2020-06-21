@@ -70,3 +70,12 @@ showSlides = (n) => {
     }
 };
 showSlides(slideIndex);
+
+barBtnClick = () => {
+    let navBar = document.getElementById("navBar")
+    if (navBar.classList.contains("hidden")) {
+        navBar.classList.remove("hidden")
+    } else {
+        navBar.classList.add("hidden")
+    }
+}
