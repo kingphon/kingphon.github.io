@@ -23096,7 +23096,7 @@ video {
   }
 
   .sm\:hidden {
-    display: none;
+    display: none !important;
   }
 
   .sm\:flex-row {
@@ -23176,7 +23176,7 @@ video {
   }
 
   .sm\:justify-center {
-    justify-content: center;
+    justify-content: center !important;
   }
 
   .sm\:justify-between {
